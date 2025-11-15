@@ -1,6 +1,6 @@
 import requests
 
-BASE = "http://localhost:8002"
+BASE = "http://patient-service:8000"
 
 def test_list_patients():
     r = requests.get(f"{BASE}/patients")

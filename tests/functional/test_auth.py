@@ -1,6 +1,6 @@
 import requests
 
-BASE = "http://localhost:8001"
+BASE = "http://auth-service:8000"
 
 def test_login_valid():
     r = requests.post(f"{BASE}/login?cpf=12345678901&password=senha123")
