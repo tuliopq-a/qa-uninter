@@ -1,0 +1,19 @@
+# === AMBIENTES VIRTUAIS ===
+.venv/
+*/.venv/
+venv/
+*/venv/
+env/
+*/env/
+
+# === CACHES DO PYTHON ===
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+
+# === CONFIGS / ARQUIVOS TEMPORÁRIOS ===
+*.log
+*.tmp
+*.temp
+
