@@ -45,6 +45,19 @@ services:
     networks:
       - sghss-net
 
+  qa-runner:
+    build: ./qa-runner
+    container_name: qa-runner
+    depends_on:
+      - auth-service
+      - patient-service
+      - appointment-service
+    networks:
+      - sghss-net
+    volumes:
+      - ./tests:/qa/tests
+      - ./qa-runner:/qa
+
 volumes:
   mysql-data:
 
