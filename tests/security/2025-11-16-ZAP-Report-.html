@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP by Checkmarx Scanning Report</title>
+<link
+	href="2025-11-16-ZAP-Report-/normalize/normalize.css" rel="stylesheet">
+<link
+	href="2025-11-16-ZAP-Report-/themes/original/main.css" rel="stylesheet">
+<link
+	href="2025-11-16-ZAP-Report-/themes/original/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP by Checkmarx Scanning Report</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org"><img
+				src="2025-11-16-ZAP-Report-/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on dom. 16 nov. 2025, at 02:19:39</span>
+		</p>
+		<p>ZAP Version: 2.16.1</p>
+		<p>
+			ZAP by <a href="https://checkmarx.com/">Checkmarx</a>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a
+						href="#about-this-report">About This Report</a>
+						<ol>
+							
+							<li><a
+								href="#report-parameters">Report Parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a
+						href="#summaries">Summaries</a>
+						<ol>
+							<li><a
+								href="#risk-confidence-counts">Alert Counts by Risk and Confidence</a></li>
+							<li><a
+								href="#site-risk-counts">Alert Counts by Site and Risk</a></li>
+							<li><a
+								href="#alert-type-counts">Alert Counts by Alert Type</a></li>
+						</ol></li>
+					<li><a
+						href="#alerts">Alerts</a>
+						<ol>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-3-confidence-1"><span>Risk</span>=<span
+									class="risk-level">Alto</span>, <span>Confidence</span>=<span
+									class="confidence-level">Baixo</span> <span>(1)</span></a></li>
+							  
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-2-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Médio</span>, <span>Confidence</span>=<span
+									class="confidence-level">Médio</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-1-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Baixo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Médio</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-0-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+									class="confidence-level">Médio</span> <span>(1)</span></a></li>
+							
+							
+							  
+						</ol></li>
+					<li><a
+						href="#appendix">Appendix</a>
+						<ol>
+							<li><a
+								href="#alert-types">Alert Types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section
+			id="about-this-report" class="about-this-report">
+			<h2>About This Report</h2>
+
+			
+
+			<section
+				id="report-parameters">
+				<h3>Report Parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					
+					
+					<p>The following contexts were selected to be included:</p>
+					<ul class="contexts-list">
+						<li><span
+							class="context">Contexto Padrão</span></li>
+					</ul>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">http://localhost:8003</span></li>
+						<li><span class="site">http://localhost:8002</span></li>
+						<li><span class="site">http://localhost:8001</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">Alto</span>, <span class="risk-level">Médio</span>, <span class="risk-level">Baixo</span>, <span class="risk-level">Informativo</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">User Confirmed</span>, <span class="confidence-level">Alto</span>, <span class="confidence-level">Médio</span>, <span class="confidence-level">Baixo</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">User Confirmed</span>, <span class="confidence-level">Alto</span>, <span class="confidence-level">Médio</span>, <span class="confidence-level">Baixo</span>, <span class="confidence-level">Falso Positivo</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section
+				id="risk-confidence-counts">
+				<h3>Alert Counts by Risk and Confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup"
+								colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">User Confirmed</th>
+							<th scope="col">Alto</th>
+							<th scope="col">Médio</th>
+							<th scope="col">Baixo</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="5">Risk</th>
+							<th scope="row">Alto</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(25,0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(25,0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Médio</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(25,0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(25,0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Baixo</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(25,0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(25,0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informativo</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(25,0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(25,0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0,0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(75,0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(25,0%)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="site-risk-counts">
+				<h3>Alert Counts by Site and Risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of &quot;False Positive&quot; have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>Alto</span><br>  <span
+									class="additional-info-percentages">(= Alto)</span>  
+							</th>
+							<th scope="col">
+								<span>Médio</span><br>   <span
+									class="additional-info-percentages">(&gt;= Médio)</span> 
+							</th>
+							<th scope="col">
+								<span>Baixo</span><br>   <span
+									class="additional-info-percentages">(&gt;= Baixo)</span> 
+							</th>
+							<th scope="col">
+								<span>Informativo</span><br>   <span
+									class="additional-info-percentages">(&gt;= Informativo)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="2">Site</th>
+							<th scope="row">http://localhost:8003</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(1)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(1)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(1)</span></td>
+							
+						</tr>
+						<tr>
+							
+							<th scope="row">http://localhost:8001</th>
+							
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(1)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(1)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(2)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(3)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="alert-type-counts">
+				<h3>Alert Counts by Alert Type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type&#39;s risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-0">Injeção SQL</a></th>
+							<td class="risk-level">Alto</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(75,0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-1">Erro de Formato de String</a></th>
+							<td class="risk-level">Médio</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(25,0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-2">X-Content-Type-Options Header Missing</a></th>
+							<td class="risk-level">Baixo</td>
+							<td><span>10</span><br> <span
+								class="additional-info-percentages">(250,0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-3">Information Disclosure - Sensitive Information in URL</a></th>
+							<td class="risk-level">Informativo</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(75,0%)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>4</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				
+				
+				
+				
+				
+				
+				<li id="alerts--risk-3-confidence-1">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Alto</span>, <span>Confidence</span>=<span
+							class="confidence-level">Baixo</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8001</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-0">Injeção SQL</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://localhost:8001/login?cpf=%27&amp;password=adminpass</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					 <span>POLICY_SEQUENCE = </span>
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A03_2021-Injection/">OWASP_2021_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#compliance">PCI_DSS</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/89.html">CWE-89</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_CICD = </span>
+				</li>
+				<li>
+					 <span>POLICY_DEV_CICD = </span>
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection">WSTG-v42-INPV-05</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_API = </span>
+				</li>
+				<li>
+					 <span>POLICY_DEV_FULL = </span>
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_QA_FULL = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#compliance">HIPAA</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A1_2017-Injection.html">OWASP_2017_A01</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>SQL injection may be possible.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (238 bytes)</summary>
+				
+				<pre><code>POST http://localhost:8001/login?cpf=%27&amp;password=adminpass HTTP/1.1
+User-Agent: PostmanRuntime/7.49.1
+Accept: */*
+Postman-Token: abf51675-69f4-448c-a139-29f1319c8010
+host: localhost:8001
+Connection: keep-alive
+Content-Length: 0
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (153 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 500 Internal Server Error
+date: Sun, 16 Nov 2025 04:45:59 GMT
+server: uvicorn
+content-length: 21
+content-type: text/plain; charset=utf-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (21 bytes)</summary>
+				
+				<pre><code>Internal Server Error</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>cpf</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Attack</th>
+		<td><pre><code>&#39;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>HTTP/1.1 500 Internal Server Error</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Do not trust client side input, even if there is client side validation in place.</p>
+
+<p>In general, type check all data on the server side.</p>
+
+<p>If the application uses JDBC, use PreparedStatement or CallableStatement, with parameters passed by &#39;?&#39;</p>
+
+<p>If the application uses ASP, use ADO Command Objects with strong type checking and parameterized queries.</p>
+
+<p>If database Stored Procedures can be used, use them.</p>
+
+<p>Do *not* concatenate strings into queries in the stored procedure, or use &#39;exec&#39;, &#39;exec immediate&#39;, or equivalent functionality!</p>
+
+<p>Do not create dynamic SQL queries using simple string concatenation.</p>
+
+<p>Escape all data received from the client.</p>
+
+<p>Apply an &#39;allow list&#39; of allowed characters, or a &#39;deny list&#39; of disallowed characters in user input.</p>
+
+<p>Apply the principle of least privilege by using the least privileged database user possible.</p>
+
+<p>In particular, avoid using the &#39;sa&#39; or &#39;db-owner&#39; database users. This does not eliminate SQL injection, but minimizes its impact.</p>
+
+<p>Grant the minimum database access that is necessary for the application.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-2-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Médio</span>, <span>Confidence</span>=<span
+							class="confidence-level">Médio</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8003</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-1">Erro de Formato de String</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://localhost:8003/appointments?patient_id=1&amp;doctor_name=ZAP+%251%21s%252%21s%253%21s%254%21s%255%21s%256%21s%257%21s%258%21s%259%21s%2510%21s%2511%21s%2512%21s%2513%21s%2514%21s%2515%21s%2516%21s%2517%21s%2518%21s%2519%21s%2520%21s%2521%21n%2522%21n%2523%21n%2524%21n%2525%21n%2526%21n%2527%21n%2528%21n%2529%21n%2530%21n%2531%21n%2532%21n%2533%21n%2534%21n%2535%21n%2536%21n%2537%21n%2538%21n%2539%21n%2540%21n%0A&amp;appointment_date=2025-01-28+10%3A30</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A1_2017-Injection.html">OWASP_2017_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A03_2021-Injection/">OWASP_2021_A03</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_API = </span>
+				</li>
+				<li>
+					 <span>POLICY_QA_FULL = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/134.html">CWE-134</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>A Format String error occurs when the submitted data of an input string is evaluated as a command by the application.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>Potential Format String Error. The script closed the connection on a Microsoft format string error.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (638 bytes)</summary>
+				
+				<pre><code>POST http://localhost:8003/appointments?patient_id=1&amp;doctor_name=ZAP+%251%21s%252%21s%253%21s%254%21s%255%21s%256%21s%257%21s%258%21s%259%21s%2510%21s%2511%21s%2512%21s%2513%21s%2514%21s%2515%21s%2516%21s%2517%21s%2518%21s%2519%21s%2520%21s%2521%21n%2522%21n%2523%21n%2524%21n%2525%21n%2526%21n%2527%21n%2528%21n%2529%21n%2530%21n%2531%21n%2532%21n%2533%21n%2534%21n%2535%21n%2536%21n%2537%21n%2538%21n%2539%21n%2540%21n%0A&amp;appointment_date=2025-01-28+10%3A30 HTTP/1.1
+User-Agent: PostmanRuntime/7.49.1
+Accept: */*
+Postman-Token: 1ebff735-d53b-4b12-b32d-44a3ae4c435e
+host: localhost:8003
+Connection: keep-alive
+Content-Length: 0
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (153 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 500 Internal Server Error
+date: Sun, 16 Nov 2025 04:54:02 GMT
+server: uvicorn
+content-length: 21
+content-type: text/plain; charset=utf-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (21 bytes)</summary>
+				
+				<pre><code>Internal Server Error</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>doctor_name</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Attack</th>
+		<td><pre><code>ZAP %1!s%2!s%3!s%4!s%5!s%6!s%7!s%8!s%9!s%10!s%11!s%12!s%13!s%14!s%15!s%16!s%17!s%18!s%19!s%20!s%21!n%22!n%23!n%24!n%25!n%26!n%27!n%28!n%29!n%30!n%31!n%32!n%33!n%34!n%35!n%36!n%37!n%38!n%39!n%40!n
+</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Rewrite the background program using proper deletion of bad character strings. This will require a recompile of the background executable.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+						
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Baixo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Médio</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8001</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-2">X-Content-Type-Options Header Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8001/health</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &#39;nosniff&#39;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p>
+
+<p>At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (192 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8001/health HTTP/1.1
+User-Agent: PostmanRuntime/7.49.1
+Accept: */*
+Postman-Token: 2745ad85-3e86-4bb3-8c97-1d35b12d8a45
+host: localhost:8001
+Connection: keep-alive
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (125 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+date: Sun, 16 Nov 2025 04:40:26 GMT
+server: uvicorn
+content-length: 28
+content-type: application/json
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (28 bytes)</summary>
+				
+				<pre><code>{&quot;status&quot;:&quot;auth-service ok&quot;}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-content-type-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &#39;nosniff&#39; for all web pages.</p>
+
+<p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-0-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informativo</span>, <span>Confidence</span>=<span
+							class="confidence-level">Médio</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8001</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-3">Information Disclosure - Sensitive Information in URL</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://localhost:8001/login?cpf=123&amp;password=123</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/598.html">CWE-598</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_QA_STD = </span>
+				</li>
+				<li>
+					 <span>POLICY_PENTEST = </span>
+				</li>
+				<li>
+					<span><a href="https://www.zaproxy.org/docs/desktop/addons/common-library/alerttags/#systemic">SYSTEMIC</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					 <span>POLICY_DEV_STD = </span>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>A solicitação parecia conter informações confidenciais vazadas no URL. Isso pode violar a PCI e a maioria das políticas de conformidade organizacional. Você pode configurar a lista de strings para esta verificação para adicionar ou remover valores específicos para seu ambiente.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The URL contains potentially sensitive information. The following string was found via the pattern: pass</p>
+
+<p>password</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (232 bytes)</summary>
+				
+				<pre><code>POST http://localhost:8001/login?cpf=123&amp;password=123 HTTP/1.1
+User-Agent: PostmanRuntime/7.49.1
+Accept: */*
+Postman-Token: b2c3ff0b-3ea4-4bd6-bb5b-8d08d1ad9930
+host: localhost:8001
+Connection: keep-alive
+Content-Length: 0
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (135 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 401 Unauthorized
+date: Sun, 16 Nov 2025 04:42:02 GMT
+server: uvicorn
+content-length: 35
+content-type: application/json
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (35 bytes)</summary>
+				
+				<pre><code>{&quot;detail&quot;:&quot;Credenciais inválidas&quot;}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>password</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>password</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Não passe informações confidenciais em URIs.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert Types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li
+						id="alert-type-0">
+						<h4>Injeção SQL</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/40018/">Injeção SQL</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/89.html">89</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>19</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-1">
+						<h4>Erro de Formato de String</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/30002/">Erro de Formato de String</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/134.html">134</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>6</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://owasp.org/www-community/attacks/Format_string_attack">https://owasp.org/www-community/attacks/Format_string_attack</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-2">
+						<h4>X-Content-Type-Options Header Missing</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10021/">X-Content-Type-Options Header Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)">https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-3">
+						<h4>Information Disclosure - Sensitive Information in URL</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10024/">Information Disclosure - Sensitive Information in URL</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/598.html">598</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+</body>
+</html>
+
+
+
